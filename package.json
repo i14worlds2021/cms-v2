@@ -1,0 +1,38 @@
+{
+  "name": "headless-cms",
+  "private": true,
+  "version": "0.1.0",
+  "description": "I14 Worlds 2021 CMS",
+  "scripts": {
+    "gcp-build": "strapi build",
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "strapi": "3.0.0-beta.20.3",
+    "strapi-admin": "3.0.0-beta.20.3",
+    "strapi-connector-mongoose": "3.0.0-beta.20.3",
+    "strapi-plugin-content-manager": "3.0.0-beta.20.3",
+    "strapi-plugin-content-type-builder": "3.0.0-beta.20.3",
+    "strapi-plugin-email": "3.0.0-beta.20.3",
+    "strapi-plugin-upload": "3.0.0-beta.20.3",
+    "strapi-plugin-users-permissions": "3.0.0-beta.20.3",
+    "strapi-provider-upload-google-cloud-storage": "^3.0.0-beta.20.3",
+    "strapi-utils": "3.0.0-beta.20.3"
+  },
+  "author": {
+    "name": "Moritz Makowski",
+    "email": "moritz@dostuffthatmatters.dev"
+  },
+  "strapi": {
+    "uuid": "e347b514-11f8-43e6-9ed1-05cf8f3aa2a4"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

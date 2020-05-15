@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "country_hosts",
+  "info": {
+    "name": "countryHost"
+  },
+  "options": {
+    "increments": false,
+    "timestamps": false
+  },
+  "attributes": {
+    "country": {
+      "type": "string",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}
