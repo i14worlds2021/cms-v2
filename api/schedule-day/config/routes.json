@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/schedule-days",
+      "handler": "schedule-day.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/schedule-days/count",
+      "handler": "schedule-day.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/schedule-days/:id",
+      "handler": "schedule-day.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/schedule-days",
+      "handler": "schedule-day.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/schedule-days/:id",
+      "handler": "schedule-day.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/schedule-days/:id",
+      "handler": "schedule-day.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

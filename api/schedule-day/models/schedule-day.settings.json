@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "schedule_days",
+  "info": {
+    "name": "scheduleDay"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": false
+  },
+  "attributes": {
+    "date": {
+      "type": "date",
+      "required": true,
+      "unique": true
+    },
+    "weekday": {
+      "type": "string",
+      "required": true
+    },
+    "tag": {
+      "type": "string",
+      "required": true
+    },
+    "color": {
+      "type": "integer",
+      "required": true,
+      "default": 0
+    },
+    "events": {
+      "collection": "schedule-event"
+    }
+  }
+}

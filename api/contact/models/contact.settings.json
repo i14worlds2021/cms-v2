@@ -5,7 +5,7 @@
     "name": "contact"
   },
   "options": {
-    "increments": false,
+    "increments": true,
     "timestamps": false
   },
   "attributes": {
