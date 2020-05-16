@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "schedule_days",
   "info": {
-    "name": "scheduleDay"
+    "name": "scheduleDay",
+    "description": "One line in the schedule table"
   },
   "options": {
     "increments": true,

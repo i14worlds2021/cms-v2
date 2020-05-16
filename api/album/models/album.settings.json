@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "albums",
+  "info": {
+    "name": "album",
+    "description": "Album shown in the gallery"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "identifier": {
+      "type": "uid",
+      "required": true,
+      "targetField": "name"
+    },
+    "images": {
+      "collection": "image"
+    }
+  }
+}
