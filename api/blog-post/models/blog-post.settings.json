@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blog_posts",
+  "info": {
+    "name": "blogPost",
+    "description": "Traditional blog post for the news feed"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "identifier": {
+      "type": "uid",
+      "targetField": "title",
+      "required": true
+    },
+    "text": {
+      "type": "richtext",
+      "required": true
+    },
+    "author": {
+      "type": "string",
+      "required": true
+    },
+    "timestamp": {
+      "type": "datetime",
+      "required": true
+    },
+    "visible": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "images": {
+      "collection": "image"
+    }
+  }
+}

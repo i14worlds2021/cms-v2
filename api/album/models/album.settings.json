@@ -22,6 +22,11 @@
     },
     "images": {
       "collection": "image"
+    },
+    "visible": {
+      "type": "boolean",
+      "default": false,
+      "required": true
     }
   }
 }
