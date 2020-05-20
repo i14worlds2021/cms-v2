@@ -1,0 +1,16 @@
+{
+  "kind": "singleType",
+  "collectionName": "invitation_sliders",
+  "info": {
+    "name": "invitationSlider"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": false
+  },
+  "attributes": {
+    "slides": {
+      "collection": "slide"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/invitation-slider",
+      "handler": "invitation-slider.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/invitation-slider",
+      "handler": "invitation-slider.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/invitation-slider",
+      "handler": "invitation-slider.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
