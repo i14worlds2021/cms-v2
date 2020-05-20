@@ -13,7 +13,7 @@
       "type": "uid",
       "required": true
     },
-    "slideImage": {
+    "image": {
       "model": "file",
       "via": "related",
       "allowedTypes": [

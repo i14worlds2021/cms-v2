@@ -1,8 +1,8 @@
 {
   "kind": "singleType",
-  "collectionName": "invitation_sliders",
+  "collectionName": "invitation_slides",
   "info": {
-    "name": "invitationSlider"
+    "name": "invitationSlides"
   },
   "options": {
     "increments": true,

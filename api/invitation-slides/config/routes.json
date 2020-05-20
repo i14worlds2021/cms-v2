@@ -2,24 +2,24 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/invitation-slider",
-      "handler": "invitation-slider.find",
+      "path": "/invitation-slides",
+      "handler": "invitation-slides.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/invitation-slider",
-      "handler": "invitation-slider.update",
+      "path": "/invitation-slides",
+      "handler": "invitation-slides.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/invitation-slider",
-      "handler": "invitation-slider.delete",
+      "path": "/invitation-slides",
+      "handler": "invitation-slides.delete",
       "config": {
         "policies": []
       }

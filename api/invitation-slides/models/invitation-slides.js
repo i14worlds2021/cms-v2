@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * Lifecycle callbacks for the `invitation-slider` model.
+ * Lifecycle callbacks for the `invitation-slides` model.
  */
 
 module.exports = {
