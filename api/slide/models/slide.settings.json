@@ -22,6 +22,11 @@
       ],
       "plugin": "upload",
       "required": true
+    },
+    "darkBackground": {
+      "type": "boolean",
+      "default": false,
+      "required": true
     }
   }
 }
